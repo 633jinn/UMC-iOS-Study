@@ -11,7 +11,7 @@ import UIKit
 class InsetTextField: UITextField{
     
     var insetX: CGFloat = 0 {
-        //insetX가 바뀌면 아래의 didSet이 불림
+        // insetX가 바뀌면 아래의 didSet이 불림
         didSet{
             layoutIfNeeded()
         }
