@@ -110,7 +110,7 @@ final class LoginViewController:UIViewController{
         self.container.addArrangedSubview(self.signupButton)
         
         self.container.setCustomSpacing(10, after: self.titleImageView)
-        //시계 이미지와 아래 글자 간격 늘리기 (기본 spacing = 4)
+        // 시계 이미지와 아래 글자 간격 늘리기 (기본 spacing = 4)
         
         self.container.setCustomSpacing(46, after: self.titleLabel)
         
