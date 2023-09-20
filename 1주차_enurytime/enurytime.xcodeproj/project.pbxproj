@@ -10,14 +10,14 @@
 		065D794A26E3A4B30066F8D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065D794926E3A4B30066F8D4 /* AppDelegate.swift */; };
 		065D794C26E3A4B30066F8D4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065D794B26E3A4B30066F8D4 /* SceneDelegate.swift */; };
 		065D794E26E3A4B30066F8D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065D794D26E3A4B30066F8D4 /* ViewController.swift */; };
-		065D795126E3A4B30066F8D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 065D794F26E3A4B30066F8D4 /* Main.storyboard */; };
 		065D795326E3A4B50066F8D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 065D795226E3A4B50066F8D4 /* Assets.xcassets */; };
-		065D795626E3A4B50066F8D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 065D795426E3A4B50066F8D4 /* LaunchScreen.storyboard */; };
 		065D796126E3A4B50066F8D4 /* enurytimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065D796026E3A4B50066F8D4 /* enurytimeTests.swift */; };
 		065D796C26E3A4B60066F8D4 /* enurytimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 065D796B26E3A4B60066F8D4 /* enurytimeUITests.swift */; };
 		895EA0822AB95A5F00D4A043 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895EA0812AB95A5F00D4A043 /* UIColor+Extension.swift */; };
 		895EA0842AB95B6600D4A043 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895EA0832AB95B6600D4A043 /* LoginViewController.swift */; };
 		895EA0862AB9660F00D4A043 /* InsetTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895EA0852AB9660F00D4A043 /* InsetTextField.swift */; };
+		899482CD2ABA791600A59A66 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 899482CB2ABA791500A59A66 /* Main.storyboard */; };
+		899482D02ABA797F00A59A66 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 899482CE2ABA797F00A59A66 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,9 +42,7 @@
 		065D794926E3A4B30066F8D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		065D794B26E3A4B30066F8D4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		065D794D26E3A4B30066F8D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		065D795026E3A4B30066F8D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		065D795226E3A4B50066F8D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		065D795526E3A4B50066F8D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		065D795726E3A4B50066F8D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		065D795C26E3A4B50066F8D4 /* enurytimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = enurytimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		065D796026E3A4B50066F8D4 /* enurytimeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = enurytimeTests.swift; sourceTree = "<group>"; };
@@ -55,6 +53,8 @@
 		895EA0812AB95A5F00D4A043 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		895EA0832AB95B6600D4A043 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		895EA0852AB9660F00D4A043 /* InsetTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetTextField.swift; sourceTree = "<group>"; };
+		899482CC2ABA791500A59A66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		899482CF2ABA797F00A59A66 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,13 +108,13 @@
 				065D794926E3A4B30066F8D4 /* AppDelegate.swift */,
 				065D794B26E3A4B30066F8D4 /* SceneDelegate.swift */,
 				065D794D26E3A4B30066F8D4 /* ViewController.swift */,
-				065D794F26E3A4B30066F8D4 /* Main.storyboard */,
 				065D795226E3A4B50066F8D4 /* Assets.xcassets */,
-				065D795426E3A4B50066F8D4 /* LaunchScreen.storyboard */,
 				065D795726E3A4B50066F8D4 /* Info.plist */,
+				899482CB2ABA791500A59A66 /* Main.storyboard */,
 				895EA0812AB95A5F00D4A043 /* UIColor+Extension.swift */,
 				895EA0832AB95B6600D4A043 /* LoginViewController.swift */,
 				895EA0852AB9660F00D4A043 /* InsetTextField.swift */,
+				899482CE2ABA797F00A59A66 /* Launch Screen.storyboard */,
 			);
 			path = enurytime;
 			sourceTree = "<group>";
@@ -241,9 +241,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				065D795626E3A4B50066F8D4 /* LaunchScreen.storyboard in Resources */,
+				899482D02ABA797F00A59A66 /* Launch Screen.storyboard in Resources */,
 				065D795326E3A4B50066F8D4 /* Assets.xcassets in Resources */,
-				065D795126E3A4B30066F8D4 /* Main.storyboard in Resources */,
+				899482CD2ABA791600A59A66 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -309,20 +309,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		065D794F26E3A4B30066F8D4 /* Main.storyboard */ = {
+		899482CB2ABA791500A59A66 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				065D795026E3A4B30066F8D4 /* Base */,
+				899482CC2ABA791500A59A66 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		065D795426E3A4B50066F8D4 /* LaunchScreen.storyboard */ = {
+		899482CE2ABA797F00A59A66 /* Launch Screen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				065D795526E3A4B50066F8D4 /* Base */,
+				899482CF2ABA797F00A59A66 /* Base */,
 			);
-			name = LaunchScreen.storyboard;
+			name = "Launch Screen.storyboard";
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -451,7 +451,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AWQXXMNQS8;
-				INFOPLIST_FILE = enurytime/Info.plist;
+				INFOPLIST_FILE = "/Users/heejin/Desktop/UMC/enurytime/1주차_enurytime/enurytime/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -470,7 +470,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = AWQXXMNQS8;
-				INFOPLIST_FILE = enurytime/Info.plist;
+				INFOPLIST_FILE = "/Users/heejin/Desktop/UMC/enurytime/1주차_enurytime/enurytime/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

@@ -116,6 +116,7 @@ final class LoginViewController:UIViewController{
         
         self.container.setCustomSpacing(30, after: self.loginButton)
         
+        // autolayout 설정
         NSLayoutConstraint.activate([
             self.container.leadingAnchor.constraint(equalTo: self.view.leadingAnchor, constant:50),
             self.container.trailingAnchor.constraint(equalTo: self.view.trailingAnchor, constant: -50),
